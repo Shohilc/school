@@ -220,7 +220,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, scale: 0.9, x: 20 }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     exit={{ opacity: 0, scale: 0.9, x: 20 }}
-                    className="absolute right-0 top-12 bg-white p-3 rounded-2xl border-2 border-primary/20 shadow-lg flex gap-2 w-72"
+                    className="absolute right-0 top-12 bg-white p-3 rounded-2xl border-2 border-primary/20 shadow-lg flex gap-2 w-60 sm:w-72"
                   >
                     <input
                       type="text"
