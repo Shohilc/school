@@ -11,7 +11,7 @@ export default function Badge({
     primary: "bg-primary-light text-primary-dark",
     secondary: "bg-secondary-light text-secondary-dark",
     pink: "bg-accent-pink-light text-accent-pink-dark",
-    green: "bg-emerald-100 text-emerald-700",
+    green: "bg-zinc-100 text-zinc-800",
     navy: "bg-navy text-cream",
     gray: "bg-slate-100 text-slate-600"
   };
