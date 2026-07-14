@@ -100,13 +100,13 @@ export default function Contact() {
             <div className="w-full h-48 rounded-3xl overflow-hidden border-2 border-cream-dark bg-slate-900 flex items-center justify-center relative group">
               <div className="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&auto=format&fit=crop&q=80')] bg-cover bg-center" />
               <div className="relative z-10 text-center p-3 bg-navy/90 backdrop-blur-sm rounded-2xl m-3 border border-slate-700 max-w-xs">
-                <span className="block text-xs font-bold text-secondary uppercase tracking-wider">Main Campus Map</span>
+                <span className="block text-xs font-bold text-zinc-400 uppercase tracking-wider">Main Campus Map</span>
                 <span className="block text-[11px] text-slate-300 mt-1">Visit us to inspect rooms & check learning boxes.</span>
                 <a
                   href="https://maps.google.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-2 px-3 py-1.5 bg-primary hover:bg-primary-dark text-white rounded-full text-[10px] font-fredoka font-bold transition-colors cursor-pointer"
+                  className="inline-block mt-2 px-3 py-1.5 bg-white hover:bg-zinc-200 text-black rounded-full text-[10px] font-fredoka font-bold transition-colors cursor-pointer"
                 >
                   Get Driving Directions
                 </a>
