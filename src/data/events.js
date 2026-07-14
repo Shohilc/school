@@ -19,7 +19,7 @@ export const upcomingEvents = [
     location: "Courtyard Garden",
     shortDescription: "A special morning for grandparents to share classic folktales and childhood memories with children.",
     longDescription: "We celebrate the special bond across generations! Grandparents are welcome to join their grandchildren for circle storytelling, painting collaboration cards, and taking Polaroid pictures at our storybook photo booth. It is a heartwarming social event that fosters cross-generational learning and empathy.",
-    image: "https://images.unsplash.com/photo-1544928147-7972ec55599b?w=800&auto=format&fit=crop&q=80"
+    image: "https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=800&auto=format&fit=crop&q=80"
   },
   {
     id: "up-3",

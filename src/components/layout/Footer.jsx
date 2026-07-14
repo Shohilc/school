@@ -128,7 +128,7 @@ export default function Footer() {
             
             {/* Embedded maps placeholder */}
             <div className="w-full h-32 rounded-2xl overflow-hidden border border-slate-700 bg-slate-900 flex items-center justify-center relative group">
-              <div className="absolute inset-0 opacity-40 bg-[url('https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/-122.424,37.78,14,0/300x150?access_token=mock')] bg-cover bg-center" />
+              <div className="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&auto=format&fit=crop&q=80')] bg-cover bg-center" />
               <div className="relative z-10 text-center p-2 bg-navy/85 backdrop-blur-sm rounded-xl m-2 border border-slate-700">
                 <span className="block text-[11px] font-bold text-secondary uppercase tracking-wider">Find Us On Maps</span>
                 <span className="block text-[10px] text-slate-300">Little Sprouts Academy Campuses</span>

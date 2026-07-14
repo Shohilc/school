@@ -98,7 +98,7 @@ export default function Contact() {
 
             {/* Maps Frame Mock */}
             <div className="w-full h-48 rounded-3xl overflow-hidden border-2 border-cream-dark bg-slate-900 flex items-center justify-center relative group">
-              <div className="absolute inset-0 opacity-50 bg-[url('https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/-122.424,37.78,14,0/400x200?access_token=mock')] bg-cover bg-center" />
+              <div className="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&auto=format&fit=crop&q=80')] bg-cover bg-center" />
               <div className="relative z-10 text-center p-3 bg-navy/90 backdrop-blur-sm rounded-2xl m-3 border border-slate-700 max-w-xs">
                 <span className="block text-xs font-bold text-secondary uppercase tracking-wider">Main Campus Map</span>
                 <span className="block text-[11px] text-slate-300 mt-1">Visit us to inspect rooms & check learning boxes.</span>

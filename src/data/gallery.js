@@ -38,7 +38,7 @@ export const galleryItems = [
     id: 6,
     title: "Winter Festival Parade",
     category: "Events",
-    image: "https://images.unsplash.com/photo-1544928147-7972ec55599b?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1540479859555-17af45c78602?w=800&auto=format&fit=crop&q=80",
     description: "Children dressed in festive colors and handmade costumes during our winter parade."
   },
   {
