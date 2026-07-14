@@ -26,11 +26,15 @@
 }
 
 /* Base style resets and overrides */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-nunito);
   background-color: var(--color-cream);
   color: var(--color-navy);
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {

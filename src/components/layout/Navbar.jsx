@@ -237,14 +237,15 @@ export default function Navbar() {
             </div>
 
             {/* CTA Button (Desktop only) */}
-            <Button
-              variant="secondary"
-              size="sm"
-              onClick={openEnquiry}
-              className="hidden md:inline-flex"
-            >
-              Enquire Now
-            </Button>
+            <div className="hidden md:block">
+              <Button
+                variant="secondary"
+                size="sm"
+                onClick={openEnquiry}
+              >
+                Enquire Now
+              </Button>
+            </div>
 
             {/* Hamburger Button */}
             <m.button
@@ -296,7 +297,7 @@ export default function Navbar() {
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: "110%", opacity: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 250 }}
-              className="fixed top-4 right-4 bottom-4 w-full max-w-[340px] bg-white/30 backdrop-blur-3xl rounded-[32px] border border-white/45 z-50 p-6 flex flex-col justify-between overflow-y-auto shadow-2xl text-navy scrollbar-none"
+              className="fixed top-4 right-4 bottom-4 left-4 sm:left-auto sm:w-full sm:max-w-[340px] bg-white/30 backdrop-blur-3xl rounded-[32px] border border-white/45 z-50 p-6 flex flex-col justify-between overflow-y-auto shadow-2xl text-navy scrollbar-none"
             >
               <div className="flex flex-col flex-grow">
                 {/* Header with logo & close */}
