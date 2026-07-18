@@ -130,13 +130,13 @@ export default function Footer() {
             <div className="w-full h-32 rounded-2xl overflow-hidden border border-slate-700 bg-slate-900 flex items-center justify-center relative group">
               <div className="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&auto=format&fit=crop&q=80')] bg-cover bg-center" />
               <div className="relative z-10 text-center p-2 bg-navy/85 backdrop-blur-sm rounded-xl m-2 border border-slate-700">
-                <span className="block text-[11px] font-bold text-zinc-400 uppercase tracking-wider">Find Us On Maps</span>
+                <span className="block text-[11px] font-bold text-secondary uppercase tracking-wider">Find Us On Maps</span>
                 <span className="block text-[10px] text-slate-300">Little Sprouts Academy Campuses</span>
                 <a
                   href="https://maps.google.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-1 text-[10px] font-fredoka font-bold text-white hover:text-zinc-300 hover:underline cursor-pointer"
+                  className="inline-block mt-1 text-[10px] font-fredoka font-bold text-primary hover:underline cursor-pointer"
                 >
                   Get Directions &rarr;
                 </a>

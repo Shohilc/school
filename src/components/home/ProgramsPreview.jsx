@@ -52,10 +52,10 @@ const PROGRAMS = [
     age: "4.5 - 5.5 Years",
     time: "08:30 AM - 12:30 PM",
     desc: "Reading books, elementary math concepts, basic science lab trials, and preparation for primary grade schools.",
-    color: "gray",
-    bgColor: "bg-cream-dark/50",
-    borderColor: "border-navy/10",
-    badgeVariant: "gray",
+    color: "green",
+    bgColor: "bg-emerald-50",
+    borderColor: "border-emerald-500/10",
+    badgeVariant: "green",
     icons: ["🔬", "🔢", "📖"],
     highlights: ["Mini science lab", "Number logic concepts", "Self reading books"]
   }

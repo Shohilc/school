@@ -31,7 +31,7 @@ const FEATURES = [
     title: "Small Class Sizes",
     description: "Low student-to-mentor ratios ensuring individualized care and feedback portfolios.",
     icon: Users,
-    color: "text-navy-light bg-cream-dark"
+    color: "text-emerald-500 bg-emerald-100"
   }
 ];
 
